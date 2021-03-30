@@ -16,7 +16,7 @@ for (let i = 0;  i < lifeEvents.length; i++) {
 
 let counter = 0;
 while (true){
-    let randomNumber = Math.floor(Math.random() * (10 - 1)) + 1;
+    let randomNumber = Math.floor(Math.random() * 10) + 1; //all you need to do is add the 1 after you have taken the floor of the random number so its possible to hit 10
 
 if (randomNumber !== 5) {
     counter++;
